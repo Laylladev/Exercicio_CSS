@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(4, 58, 58);
+    padding: 16px 0;
+    color: whitesmoke;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+ display: inline;   
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: bold;
+ margin-left: 10px;
+
+}
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+} 
+
+.articles{
+    display: flex;
+    justify-content: space-between; 
+}
+.articles article img{
+    height: 180px;
+}
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0;
+}
+section h2{
+    margin bottom: 12px;
+}
+
+.articles article h3{
+    margin-top: 08px;
+    margin-bottom: 08px;
+}
+
+.articles article a{
+    background-color: rgb(222, 222, 236);
+    color: royalblue;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p
+.articles article a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#Sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Sports .articles article a {
+    background-color: rgba(0, 255, 0, 0.7);
+    color: black;
+}
+
+#Economy {
+    background-color: rgb(154, 205, 50, 0.3);
+}
+
+#Economy .articles article a {
+    background-color: orange;
+    color: black;
+}
+
+#Cinema {
+    background-color: rgba(243, 183, 183, 0.3);
+}
+
+#Cinema .articles article a {
+    background-color:palevioletred;
+    color: black;
+}
+
+#Viagem {
+    background-color: rgb(96, 96, 236, 0.3);
+}
+
+#Viagem .articles article a {
+    background-color: rgb(99, 56, 218);
+    color: black;
+}
